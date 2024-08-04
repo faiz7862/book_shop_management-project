@@ -1,0 +1,42 @@
+{
+	"folders": [
+		{
+			"path": "../../../MinGW"
+		},
+		{
+			"path": "../../../JAVA PROGRAMMING FILE"
+		},
+		{
+			"path": "../../../PYTHON PROGRAMMING FILE"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	},
+	"settings": {
+		"java.help.collectErrorLog": false,
+		"java.project.sourcePaths": [
+			""
+		],
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "MyFirstSQL",
+				"database": "myshop",
+				"username": "sqluser",
+				"password": "faizakram"
+			}
+		],
+		"liveServer.settings.multiRootWorkspaceName": "html programming files"
+	}
+}

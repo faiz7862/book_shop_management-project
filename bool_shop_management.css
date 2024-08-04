@@ -1,0 +1,258 @@
+.main{
+    height: 100%;
+    width: 100%;
+    
+}
+.logo{
+    margin-left: 100px;
+    
+}
+.search{
+    text-decoration: green;
+    margin-top: 40px;
+    margin-left: 100px;
+
+}
+.login_logo{
+    margin-left: 150px;
+    margin-top: 30px;
+       
+}
+.login_logo:hover{
+    transform: scale(0.9);
+}
+
+.register_logo{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.register_logo:hover{
+    transform: scale(0.9);
+}
+.row1{
+    display: flex;
+    height: 100px;
+    width: 100%;
+
+}
+@keyframes animation_logo{
+    0%{
+        background-image: url("images_bookshop/83_inr.jpg");
+    }
+    12.5%{
+        background-image:url("images_bookshop/84_inr.jpg")
+    }
+    25%{
+        background-image: url("images_bookshop/82_inr.jpg");
+    }
+    62.5%{
+        background-image: url("images_bookshop/81_inr.jpg");
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url("images_bookshop/80_inr.jpg");
+        background-repeat: no-repeat;
+    }    
+    100%{
+        background-image:url("images_bookshop/79_inr.jpg");
+        background-repeat: no-repeat;
+    }
+
+}
+.row2{
+    display: flex;
+    margin-left: 10px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+    top: 0px;
+    background-color: black;
+    border-radius: 10px;
+}
+.r2c1{
+    padding-left: 40px;
+    font-size: 18px;
+    margin-left: 5px;
+    background-image: url("images_bookshop/menubg.jpg");
+    border-radius: 10px;
+    width: 150px;
+    padding-top: 15px;
+    
+    overflow: hidden;
+}
+
+.r2c1:hover{
+    transform: scale(0.9);
+    color: rgb(232, 13, 221);
+}
+.row3{
+    height: 500px;
+    width: 100%;
+    animation: animation_logo 30s 0s infinite linear;
+    
+}
+.row4{
+    font-size: 40px;
+    align-items: center;
+    color: green;
+    justify-content: center;
+}
+.row5{
+    height: 300px;
+    width: 1300px;
+    margin: auto;
+    
+}
+.books1{
+    height: 300px;
+    width: 1300px;
+    margin-left: 50px;
+    justify-content: center;
+    display: flex;
+  
+}
+.r5book{
+    height: 275px;
+    position: relative;
+    overflow: hidden;
+}
+.buy_hover{
+    height: 30px;
+    width: 182px;
+    color: green;
+    background-color: yellow;
+    padding-top: 10px;
+    padding-left: 60px;
+    position: absolute;
+    border: solid red 2px;
+}
+.buy_hover:hover{
+    font-size: 17px;
+    border: 2px solid rgb(11, 195, 17);
+    color: rgb(169, 7, 37);
+}
+.r5book:hover .buy_hover{
+    top: 235px;
+    left: 0px;
+    
+}
+.r5book:hover{
+    transform: scale(0.9);
+}
+.view_more{
+    margin: auto;
+    height: 30px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: solid red 2px;
+    padding-top: 10px;
+    padding-left: 28px;
+    
+}
+.view_more:hover{
+    background-color: orangered;
+    font-size: 15px;
+}
+.row6{
+    font-size: 40px;
+    align-items: center;
+    color: green;
+    justify-content: center;
+}
+.copyright{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: flex;
+    justify-content: space-around;
+}
+.categories{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.406);
+    margin: auto;
+}
+.view_categories{
+    height: 30px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin: auto;
+    align-items: center;
+    border: solid red 2px;
+    padding-top: 12px;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+
+.categories_top{
+    height: 50px;
+    width: 1200px;
+    margin: auto;   
+    justify-content: space-around; 
+    display: flex;      
+
+}
+.categories_top1{
+    height: 50px;
+    width: 1200px;
+    margin: auto;
+ 
+    justify-content: space-around; 
+    display: flex;   
+
+}
+.categories1{
+    height: 30px;
+    width: 250px;
+    background-color: white;
+    border: 2px solid black;
+    border-bottom: 2px solid red;
+    padding-top: 10px; 
+    padding-left: 40px;  
+    margin: auto;
+
+}
+.view_categories:hover{
+    font-size: 15px;
+    background-color: orangered;
+}
+.categories1:hover{
+    font-style: italic;
+    color: green;
+}
+@keyframes truckMove{
+    0%{
+        left: -200px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+@keyframes wheelRotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.truck{
+    position: fixed;
+    bottom: 0px;
+    left: -200px;
+    animation: truckMove 15s 0s infinite linear;
+
+}
+.truckWheel{
+    display: flex;
+    justify-content: space-around;
+}
+.truckWheel img{
+    animation: wheelRotate 2s 0s infinite  ;
+}
